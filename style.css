@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #00B6C7;
+	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: right 53vw top -81vh, left 45vw top 50vh;
+
+}
+.carre{
+	position: absolute;
+	border-radius: 10px;
+	background: white;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	max-width: 100%;
+}
+
+.circle img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+  	left:50%;
+  	right:50%;
+  	transform: translate(-50%, -50%);
+}
+
+
+.info {
+	position: absolute;
+	width: 100%;
+	border-top:1px solid silver;
+	bottom: 0px;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.Name{
+
+	text-align: center;
+	position: relative;
+	font-family: 'Kumbh Sans', sans-serif;
+	max-width: 100%;
+	top: 15%;
+	height: 50px;
+}
+
+.info .Followers{
+	padding-left: 35px;
+	float: left;
+	
+}
+
+.info .Likes{
+	padding-left: 50px;
+	float: left;
+	
+}
+
+.info .Photos{
+	float: right;
+	padding-right: 35px;
+}
+
+.stat{
+	text-align: center;
+}
+.attribution {
+	font-size: 11px; 
+	text-align: center;
+	position: relative;
+	top: 600px;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
