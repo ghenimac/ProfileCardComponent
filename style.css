@@ -1,7 +1,9 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: #00B6C7;
+	background-color: hsl(185, 75%, 39%);
+	font-size: 18px;
+	font-family: 'Kumbh Sans', sans-serif;
 	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
 	background-repeat: no-repeat, no-repeat;
 	background-position: right 53vw top -81vh, left 45vw top 50vh;
@@ -11,8 +13,8 @@ body{
 	position: absolute;
 	border-radius: 10px;
 	background: white;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 380px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -37,41 +39,43 @@ body{
 .info {
 	position: absolute;
 	width: 100%;
-	border-top:1px solid silver;
+	height: 85px;
+	display: flex;
+	padding-top: 4px;
+	align-items: center;
+	justify-content: space-around; 
+	border-top:1px solid hsl(0, 0%, 80%);
 	bottom: 0px;
-	font-family: 'Kumbh Sans', sans-serif;
 }
-
-.Name{
-
+.stat {
 	text-align: center;
-	position: relative;
-	font-family: 'Kumbh Sans', sans-serif;
-	max-width: 100%;
-	top: 15%;
-	height: 50px;
+	font-weight: 700;
 }
 
-.info .Followers{
-	padding-left: 35px;
-	float: left;
-	
-}
-
-.info .Likes{
-	padding-left: 50px;
-	float: left;
-	
-}
-
-.info .Photos{
-	float: right;
-	padding-right: 35px;
-}
-
-.stat{
+.type {
 	text-align: center;
+	font-size: 0.7em;
+	color: rgb(118,118,120);
+	padding-top: 6px;
 }
+
+.profile{
+	text-align: center;
+	padding-top: 75px;
+}
+.name {
+	font-weight: bold; 
+
+}
+.age, .city {
+	color: rgb(118,118,120);
+}
+
+.city {
+	padding-top: 14px;
+	font-size :0.7em;
+}
+
 .attribution {
 	font-size: 11px; 
 	text-align: center;
